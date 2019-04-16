@@ -8,8 +8,8 @@ INPUT
   Average = ?;
 	PROCESS
 	(Grade 1 + Grade 2 + Grade 3 + Grade 4) / 2 = Average;
-	If (Average >= 60){Status("Reproved");}
-	Else (Average < 60){Status("Aproved");}
+	if (Average >= 60){Status="Reproved";}
+	if (Average < 60){Status="Aproved";}
 	OUTPUT
 	Print Average;
 	Print Status;
