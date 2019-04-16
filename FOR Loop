@@ -1,1 +1,31 @@
-Input
+// Algarithm
+INPUT
+	let sum = (input) 0;
+	let number;
+	
+PROCESS
+	For(number=?; number<?; number++){sum+=number; console.log(number);}
+OUTPUT
+	Print Sum;(alert(sum)
+  
+// JS Code
+let number;
+let sum = 0;
+for(number=11; number<23; number++){
+	sum+=number; 
+	console.log(number);
+};
+alert(sum);
+VM47:5 11
+VM47:5 12
+VM47:5 13
+VM47:5 14
+VM47:5 15
+VM47:5 16
+VM47:5 17
+VM47:5 18
+VM47:5 19
+VM47:5 20
+VM47:5 21
+VM47:5 22
+undefined
