@@ -1,10 +1,10 @@
 // Algarithm
 INPUT
-	let sum = (input) 0;
+	let sum = (input) 0;(total)
 	let number;
 	
 PROCESS
-	For(number=?; number<?; number++){sum+=number; console.log(number);}
+	For(number=119(COND1); number<23(COND2); number++ or +=(ACTION)){sum+=number; console.log(number);}
 OUTPUT
 	Print Sum;(alert(sum)
   
@@ -28,4 +28,4 @@ VM47:5 19
 VM47:5 20
 VM47:5 21
 VM47:5 22
-undefined
+
