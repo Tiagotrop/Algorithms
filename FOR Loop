@@ -4,7 +4,7 @@ INPUT
 	let number;
 	
 PROCESS
-	For(number=119(COND1); number<23(COND2); number++ or +=(ACTION)){sum+=number; console.log(number);}
+	For(number=119(COND1); number<23 OR NUMBER<=22 (COND2); number++ or +=(ACTION)){sum+=number; console.log(number);}
 OUTPUT
 	Print Sum;(alert(sum)
   
