@@ -1,0 +1,15 @@
+// Creatre an input algorithm 
+INPUT
+	Student 1 = (input)Eduardo;
+	Grade 1 = (input) 100;
+	Grade 2 = (input) 40;
+	Grade 3 = (input) 80;
+  Grade 4 = (input 60;
+  Average = ?;
+	PROCESS
+	(Grade 1 + Grade 2 + Grade 3 + Grade 4) / 2 = Average;
+	OUTPUT
+	Print Average;
+
+// JS Code
+let g1 = 100, g2 = 80, g3 = 40, g4 = 80, Student1 = "Eduardo", avg;
