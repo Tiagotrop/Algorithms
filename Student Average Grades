@@ -1,4 +1,4 @@
-// Creatre an input algorithm 
+// Creatre an input, process, output algorithm 
 INPUT
 	Student 1 = (input)Eduardo;
 	Grade 1 = (input) 100;
@@ -13,3 +13,5 @@ INPUT
 
 // JS Code
 let g1 = 100, g2 = 80, g3 = 40, g4 = 80, Student1 = "Eduardo", avg;
+avg = (g1 + g2 + g3 + g4)/ 4;
+console.log("The overall of " + Student1 + " is " + avg);
