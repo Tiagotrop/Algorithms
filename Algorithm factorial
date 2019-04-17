@@ -1,3 +1,21 @@
-INPUT
-  Let SUM = 5
-  
+Input
+  sum = 1
+  number = (user input)
+
+Process
+	sum *= number
+	number -= 1
+  If number > 0
+	repeat the process
+Else
+	stop
+
+Output
+Print sum
+
+let sum = 1;
+let number;
+for(number=5; number>0; number-=1){
+sum*=number;
+}
+alert(sum);
