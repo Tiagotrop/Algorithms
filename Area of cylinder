@@ -1,0 +1,11 @@
+Input
+  var PI = 3.14;
+  var R; // R=radius
+  var A; // A=area
+  var H; // H=height
+
+Process
+  A=2𝜋rh+2𝜋R^2
+  
+Output
+  Print A
