@@ -1,10 +1,11 @@
 Input:
-    var Number
+    var Number 
     var Diviser
     var Reminder
-Initialize
-  number = 1
+Error test
+  number = 3
   divisor = 2
+  reminder = 
 Process:
     Process
 If (number < 2)
@@ -15,9 +16,9 @@ If (number = 2)
 	print “number is prime”
 	number += 1
 If (number > 2)
-	run the process in next page
+	run the  next process 
 remainder = number % divisor
-If (remainder = 0 )
+If (remainder = 0)
 	It is not prime number, number +=1, divisor = 2, process again 
 Else 
 	divisor +=1
@@ -29,3 +30,8 @@ Else
     stop the process
 Output:
 Print the Prime numbers
+1= NP
+2 = P
+3 = P
+4 = NP
+5 = P
