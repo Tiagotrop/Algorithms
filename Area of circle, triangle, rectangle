@@ -1,0 +1,28 @@
+// Area of Circle
+Input:
+PI = 3.14
+R  //radious
+A  //area
+Process:
+A = 2*PI*R
+Output:
+Print A
+
+// Area of triangle
+H  //Height
+B  //Base
+A  //Area
+Process:
+A = H*B/2
+Output
+Print A
+
+// Area of Rectanlge
+Inpit:
+L // lenght
+W // width
+A // Area
+Process:
+A = L*W
+Outpu:
+Print A
